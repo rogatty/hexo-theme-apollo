@@ -4,8 +4,8 @@ block site_title
     != page.title + " · " + config.title
 
 block description
-    - var desc = page.desc || page.title + ' - ' + config.author;
-    meta(name="description", content=desc)
+    - var description = page.description || page.title + ' - ' + config.author;
+    meta(name="description", content=description)
 
 block container
     include mixins/post

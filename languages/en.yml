@@ -1,5 +1,5 @@
 prev: PREV
 next: NEXT
-prev_post: PREV
-next_post: NEXT
+older_post: Older
+newer_post: Newer
 more: ...more
